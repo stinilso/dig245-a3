@@ -17,5 +17,19 @@ Red: #720000
 }
 
 .container {
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
+
+.external {
+  color: black;
   text-align: center;
+}
+
+.container .poster {
+  width: 1700px;
+  height: 2390px;
+  align-content: center;
+  background-color: #93a280;
+  color: #dee0d2;
 }
