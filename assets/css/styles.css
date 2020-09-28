@@ -39,6 +39,18 @@ Red: #720000
 	height: 0;
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
-	border-top: 50px solid #555;
+	border-top: 1120px solid;
   z-index: 200;
+}
+
+#tri-teal {
+  border-color: #016a75;
+}
+
+#tri-ochre {
+  border-color: #7c5800;
+}
+
+#tri-magenta {
+  border-color: #831133;
 }
