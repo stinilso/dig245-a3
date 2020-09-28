@@ -1,2 +1,22 @@
 
 /* css */
+
+/* Colors */
+/*
+Mossy green: #93a280
+Off-white (text): #dee0d2
+Teal: #016a75
+Ochre: #7c5800
+Magenta: #831133
+Forest green: #003601
+Red: #720000
+*/
+
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  margin-top: 250px;
+  margin-bottom: 250px;
+}
