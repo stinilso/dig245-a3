@@ -21,7 +21,7 @@ Red: #720000
   margin-bottom: 200px;
 }
 
-.external {
+.container .external {
   color: black;
   text-align: center;
 }
