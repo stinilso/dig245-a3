@@ -17,6 +17,7 @@ Red: #720000
 }
 
 .container {
-  margin-top: 250px;
-  margin-bottom: 250px;
+  align-content: center;
+  text-align: center;
+  margin: 250 0 250 0;
 }
