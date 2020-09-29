@@ -34,23 +34,47 @@ Red: #720000
   color: #dee0d2;
 }
 
-.triangle-down {
+#triangle-teal {
 	width: 0;
 	height: 0;
+  position: relative;
+  top: 455px;
 	border-left: 560px solid transparent;
 	border-right: 560px solid transparent;
-	border-top: 425px solid;
+	border-top: 560px solid #016a75;
   z-index: 200;
+  opacity: 0.5;
 }
 
-#tri-teal {
-  border-color: #016a75;
+#triangle-ochre {
+  width: 0;
+	height: 0;
+  position: relative;
+  top: 175px;
+	border-left: 560px solid transparent;
+	border-right: 560px solid transparent;
+	border-top: 560px solid #7c5800;
+  z-index: 199;
+  opacity: 0.5;
 }
 
-#tri-ochre {
-  border-color: #7c5800;
+#triangle-magenta {
+  width: 0;
+	height: 0;
+  position: relative;
+  top: -105px;
+	border-left: 560px solid transparent;
+	border-right: 560px solid transparent;
+	border-top: 560px solid #831133;
+  z-index: 198;
+  opacity: 0.5;
 }
 
-#tri-magenta {
-  border-color: #831133;
+#text-fishbone {
+  text-emphasis: bold;
+  size: 50px;
+}
+
+#text-small {
+  size: 20px;
 }
