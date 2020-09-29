@@ -73,13 +73,16 @@ Red: #720000
 
 #text-fishbone p {
   font-weight: bold;
-  font-size: 60px;
+  font-size: 145px;
+  position: relative;
+  top: -105px;
+  left: 40px;
 }
 
 #text-small p {
-  font-size: 20px;
-  line-height: 1;
+  font-size: 22px;
+  line-height: .9;
   position: relative;
-  left: 800px;
-  top: -40px;
+  left: 875px;
+  top: 70px;
 }
