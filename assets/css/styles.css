@@ -34,26 +34,22 @@ Red: #720000
   color: #dee0d2;
 }
 
-.triangles {
-  mix-blend-mode: multiply;
-}
-
 #triangle-teal {
 	width: 0;
 	height: 0;
   position: absolute;
-  top: 941px;
+  top: 938px;
 	border-left: 560px solid transparent;
 	border-right: 560px solid transparent;
 	border-top: 560px solid #016a75;
-  z-index: 200;
+  z-index: 199;
 }
 
 #triangle-ochre {
   width: 0;
 	height: 0;
   position: absolute;
-  top: 1221px;
+  top: 1218px;
 	border-left: 560px solid transparent;
 	border-right: 560px solid transparent;
 	border-top: 560px solid #7c5800;
@@ -64,11 +60,35 @@ Red: #720000
   width: 0;
 	height: 0;
   position: absolute;
-  top: 1501px;
+  top: 1498px;
 	border-left: 560px solid transparent;
 	border-right: 560px solid transparent;
 	border-top: 560px solid #831133;
-  z-index: 198;
+  z-index: 199;
+}
+
+#triangle-green {
+  width: 0;
+	height: 0;
+  position: relative;
+  top: 146px;
+  left: 280px;
+	border-left: 280px solid transparent;
+	border-right: 280px solid transparent;
+	border-top: 280px solid #003601;
+  z-index: 200;
+}
+
+#triangle-red {
+  width: 0;
+	height: 0;
+  position: relative;
+  top: 146px;
+  left: 280px;
+	border-left: 280px solid transparent;
+	border-right: 280px solid transparent;
+	border-top: 280px solid #720000;
+  z-index: 200;
 }
 
 #text-fishbone p {
