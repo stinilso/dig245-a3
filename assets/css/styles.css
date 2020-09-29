@@ -37,9 +37,9 @@ Red: #720000
 .triangle-down {
 	width: 0;
 	height: 0;
-	border-left: 25px solid transparent;
-	border-right: 25px solid transparent;
-	border-top: 1120px solid;
+	border-left: 560px solid transparent;
+	border-right: 560px solid transparent;
+	border-top: 425px solid;
   z-index: 200;
 }
 
