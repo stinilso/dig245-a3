@@ -34,47 +34,52 @@ Red: #720000
   color: #dee0d2;
 }
 
+.triangles {
+  mix-blend-mode: multiply;
+}
+
 #triangle-teal {
 	width: 0;
 	height: 0;
-  position: relative;
-  top: 455px;
+  position: absolute;
+  top: 941px;
 	border-left: 560px solid transparent;
 	border-right: 560px solid transparent;
 	border-top: 560px solid #016a75;
   z-index: 200;
-  opacity: 0.5;
 }
 
 #triangle-ochre {
   width: 0;
 	height: 0;
-  position: relative;
-  top: 175px;
+  position: absolute;
+  top: 1221px;
 	border-left: 560px solid transparent;
 	border-right: 560px solid transparent;
 	border-top: 560px solid #7c5800;
   z-index: 199;
-  opacity: 0.5;
 }
 
 #triangle-magenta {
   width: 0;
 	height: 0;
-  position: relative;
-  top: -105px;
+  position: absolute;
+  top: 1501px;
 	border-left: 560px solid transparent;
 	border-right: 560px solid transparent;
 	border-top: 560px solid #831133;
   z-index: 198;
-  opacity: 0.5;
 }
 
-#text-fishbone {
-  text-emphasis: bold;
-  size: 50px;
+#text-fishbone p {
+  font-weight: bold;
+  font-size: 60px;
 }
 
-#text-small {
-  size: 20px;
+#text-small p {
+  font-size: 20px;
+  line-height: 1;
+  position: relative;
+  left: 800px;
+  top: -40px;
 }
